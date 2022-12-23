@@ -1,0 +1,416 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+h2{
+    color: white;
+}
+section{
+    height:65vh;
+}
+@keyframes keyframes {
+    from {background-color: rgb(0, 38, 255);}
+    to {background-color: rgb(255, 0, 242);}
+}
+
+.keyframes{
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name: keyframes;
+    animation-duration: 4s;
+}
+@keyframes animation-duration{
+    0%{
+        background-color:rgb(0, 38, 255) ;
+    }
+    25%{
+        background-color: rgb(127, 127, 231);
+    }
+    50%{
+        background-color: rgb(235, 160, 222);
+    }
+    75%{
+        background-color: rgb(180, 101, 255);
+    }
+    100%{
+        background-color: rgb(252, 2, 210);
+    }
+}
+.animation-duration{
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name: animation-duration;
+    animation-duration: 10s;
+}
+
+@keyframes animation-movement {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.animation-movement{
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 10s;
+    position:relative;
+}
+
+@keyframes animation-delay {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.animation-delay{
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    position:relative;
+}
+
+@keyframes animation-delay-5s {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.animation-delay-5s {
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 10s;
+    animation-delay: -5s;
+    position:relative;
+}
+@keyframes animation-iteration-count-3 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.animation-iteration-count-3 {
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 5s;
+    animation-iteration-count:3;
+    position:relative;
+}
+
+@keyframes animation-iteration-count-infinite {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.animation-iteration-count-infinite {
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    position:relative;
+}
+
+@keyframes animation-direction-reverse {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.animation-direction-reverse {
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 5s;
+    animation-direction: reverse;
+    position:relative;
+}
+
+@keyframes animation-direction-alternate {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.animation-direction-alternate {
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    position:relative;
+}
+
+@keyframes animation-direction-alternate-reverse {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.animation-direction-alternate-reverse {
+    width:200px;
+    height:200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:animation-movement;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count:infinite;
+    position:relative;
+}
+
+@keyframes move{
+    from{
+        left:0px;
+    }
+    to{
+        left:400px;
+    }
+}
+.a-t-f{
+    height:80vh;
+}
+.linear {
+    width:200px;
+    height:100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:move;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    position:relative;
+}
+.ease {
+    width:200px;
+    height:100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:move;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease;
+    position:relative;
+}
+.ease-in {
+    width:200px;
+    height:100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:move;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+    position:relative;
+}
+.ease-out {
+    width:200px;
+    height:100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:move;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-out;
+    position:relative;
+}
+.ease-in-out {
+    width:200px;
+    height:100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    animation-name:move;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    position:relative;
+}
+
+@keyframes move-top{
+    from{
+        top:0;
+    }
+    to{
+        top:300px;
+    }
+}
+.forwards{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    animation-name: move-top;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.backwards{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    animation-name: move-top;
+    animation-duration: 3s;
+    animation-fill-mode:backwards;
+}
+.both{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    animation-name: move-top;
+    animation-duration: 3s;
+    animation-fill-mode:both;
+}
+.none{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    animation-name: move-top;
+    animation-duration: 3s;
+    animation-fill-mode:none;
+}
+
+
+
+@keyframes animation-shorthand-property{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:100px; top:0px;}
+    50%  {background-color:blue; left:100px; top:100px;}
+    75%  {background-color:green; left:0px; top:100px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.animation-property{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    position:relative;
+    animation-name: animation-shorthand-property;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.animation-shorthand-property{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    position:relative;
+    animation:animation-shorthand-property 3s linear 2s infinite alternate;
+}
